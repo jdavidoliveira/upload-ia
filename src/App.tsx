@@ -1,6 +1,7 @@
 import { Button } from "./components/ui/button"
 import { Separator } from "./components/ui/separator"
 import { Github } from "lucide-react"
+import { Textarea } from "./components/ui/textarea"
 
 function App() {
 
@@ -22,6 +23,20 @@ function App() {
           </Button>
         </div>
       </header>
+
+      <main className="flex-1 p-6 flex gap-6">
+        <div className="flex flex-col flex-1 gap-4">
+          <div className="grid grid-rows-2 gap-4 flex-1">
+            <Textarea placeholder="Inclua o prompt para a IA...." />
+            <Textarea />
+          </div>
+
+          <p className="text-sm text-muted-foreground">
+            Lembre-se: você pode utilizar a variável <code className="text-violet-400">{'{prompt}'}</code> ou <code className="font-bold">{'{transcription}'}</code> no seu prompt para adicionar a transcrição
+          </p>
+        </div>
+        <aside className="w-80"></aside>
+      </main>
     </div>
   )
 }
