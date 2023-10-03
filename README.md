@@ -17,12 +17,15 @@ A aplicação é constituída de um front-end e um back-end. Uma grande gama de 
 - Vite
 - Shadcn/ui
 - Web Assembly
+- Tailwind CSS
 
 ### Back End
 - Node.js
 - Fastify
 - Vercel AI SDK
 - Open AI API
+- Prisma ORM
+- Zod
 
 ## 🛠️ Quer testar?
 
@@ -32,7 +35,7 @@ Faça um clone do repositório na sua máquina local.
 ``` git
 git clone https://github.com/lordaval/upload-ia.git
 ```
-Ou Baixe o arquivo zip clicando <a href="">aqui</a>, e em seguida Extraia o arquivo zip do repositório.
+Ou Baixe o arquivo zip clicando <a href="https://github.com/lordaval/upload-ia/archive/refs/tags/release.zip">aqui</a>, e em seguida Extraia o arquivo zip do repositório.
 
 
 Em seguida, usando seu gerenciador de pacotes favorito, instale as dependências necessárias nas duas pastas (frontend e backend). 
